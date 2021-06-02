@@ -140,3 +140,8 @@ footer {
 .footer ul {
   padding-inline-start: 0px;
 }
+
+.list-non-bullet li div h1 a {
+  text-decoration: none;
+  color: black;
+}
