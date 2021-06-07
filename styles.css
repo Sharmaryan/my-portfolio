@@ -145,3 +145,8 @@ footer {
   text-decoration: none;
   color: black;
 }
+/* blogs styling */
+.img-blog {
+  max-width: 100%;
+  height: auto;
+}
