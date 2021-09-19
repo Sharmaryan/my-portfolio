@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Caveat&family=Indie+Flower&family=Noto+Sans:ital,wght@1,400;1,700&display=swap');
+
 
 :root {
   --primary-color: #34d399;
@@ -7,7 +8,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin: 0;
 }
 
@@ -15,13 +16,6 @@ hr {
   margin: 2rem 0rem;
 }
 
-/* spaces */
-
-/* .margin-md {
-  margin: 2rem;
-} */
-
-/* container */
 .container {
   padding: 0rem 1rem;
 }
@@ -31,7 +25,7 @@ hr {
   max-width: 600px;
 }
 
-/* links */
+
 
 .link {
   text-decoration: none;
@@ -46,12 +40,10 @@ hr {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
-  /* background-color: white; */
+  
 }
 
-/* look into BEM naming convention for CSS */
 
-/* lists */
 .list-non-bullet {
   list-style: none;
 }
@@ -60,7 +52,7 @@ hr {
   padding: 0rem 0.5rem;
 }
 
-/* navigation */
+
 
 .navigation {
   background-color: var(--primary-color);
@@ -84,14 +76,14 @@ hr {
   font-weight: bold;
 }
 
-/* header */
+
 
 .hero {
   padding: 2rem;
 }
 
 .hero .hero-img {
-  max-width: 350px;
+  max-width: 270px;
   display: block;
   margin: auto;
 }
@@ -105,7 +97,7 @@ hr {
   color: var(--primary-color);
 }
 
-/* section */
+
 
 .section {
   padding: 2rem;
@@ -119,7 +111,7 @@ hr {
   background-color: var(--off-white);
 }
 
-/* footers */
+
 
 footer {
   background-color: var(--primary-color);
@@ -145,8 +137,14 @@ footer {
   text-decoration: none;
   color: black;
 }
-/* blogs styling */
+
 .img-blog {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 420px) {
+  .link {
+  padding: 0.5rem .1rem;
+}
 }
